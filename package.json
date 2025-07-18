@@ -4,7 +4,7 @@
   "description": "Proyecto de ejemplo con CI/CD en GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "test": "node run-tests.js"
+    "test": "jest"
   },
   "type": "module",
   "devDependencies": {

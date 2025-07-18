@@ -1,4 +1,4 @@
-// run-tests.js
+
 import { spawn } from 'node:child_process';
 
 const jest = spawn('node', [
