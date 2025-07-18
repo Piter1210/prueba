@@ -4,14 +4,10 @@
   "description": "Proyecto de ejemplo con CI/CD en GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node run-tests.js"
   },
   "type": "module",
   "devDependencies": {
     "jest": "^29.0.0"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "extensionsToTreatAsEsm": [".js"]
   }
 }
