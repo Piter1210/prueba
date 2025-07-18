@@ -1,0 +1,13 @@
+{
+  "name": "simple-js-project",
+  "version": "1.0.0",
+  "description": "Proyecto de ejemplo con CI/CD en GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "type": "module"
+}
