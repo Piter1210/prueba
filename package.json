@@ -6,8 +6,12 @@
   "scripts": {
     "test": "jest"
   },
+  "type": "module",
   "devDependencies": {
     "jest": "^29.0.0"
   },
-  "type": "module"
+  "jest": {
+    "testEnvironment": "node",
+    "extensionsToTreatAsEsm": [".js"]
+  }
 }
